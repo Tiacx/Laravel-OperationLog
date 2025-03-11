@@ -1,0 +1,31 @@
+{
+    "name": "tiacx/laravel-operation-log",
+    "description": "Laravel-OperationLog - An extension to record model operation logs.",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": ">=10.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tiacx\\OperationLog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiac"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tiacx\\OperationLog\\OperationLogProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "version": "1.0.0"
+}
